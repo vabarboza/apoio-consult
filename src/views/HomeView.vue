@@ -1,18 +1,62 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <section class="section">
+      <div class="container">
+        <!-- Header -->
+        <h1 class="title has-text-centered has-text-weight-bold is-capitalized">
+          Consultoria empresarial para MEI
+        </h1>
+
+        <hr class="my-6" />
+
+        <div class="columns is-vcentered">
+          <div class="column">
+            <SobreHome />
+          </div>
+
+          <div class="is-hidden-mobile is-hidden-tablet-only column is-1"></div>
+
+          <div class="column is-full-mobile is-4-desktop">
+            <!-- Coloque aqui o componente <FormIndex /> depois -->
+            <div class="has-text-centered"><FormIndex /></div>
+          </div>
+        </div>
+
+        <hr class="my-6" />
+
+        <!-- ContatoBar (placeholder) -->
+        <div class="has-text-centered"><ContatoBar /></div>
+
+        <hr class="my-6" />
+
+        <!-- CardsRelacionados (placeholder) -->
+        <div class="has-text-centered"><CardsRelacionados /></div>
+
+        <hr class="my-6" />
+
+        <!-- ParceirosVue (placeholder) -->
+        <div class="has-text-centered">
+          <ParceirosVue/>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import SobreHome from "@/components/SobreHome.vue";
+import FormIndex from "@/components/FormIndex.vue";
+import ContatoBar from "@/components/ContatoBar.vue";
+import CardsRelacionados from "@/components/CardsRelacionados.vue";
+import ParceirosVue from "@/components/ParceirosVue.vue";
 
 export default {
-  name: 'HomeView',
   components: {
-    HelloWorld
-  }
-}
+    SobreHome,
+    FormIndex,
+    ContatoBar,
+    CardsRelacionados,
+    ParceirosVue
+  },
+};
 </script>
