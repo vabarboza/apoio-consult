@@ -7,12 +7,11 @@
 
     <!-- Grid de parceiros -->
     <div class="columns is-multiline">
-
       <!-- Parceiro 1 -->
       <div class="column is-full-mobile is-half-tablet is-one-quarter-desktop">
         <div class="box has-text-centered p-4">
           <figure class="image is-128x128 is-inline-block">
-            <img class="is-rounded" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" alt="Alan Turing">
+            <img class="is-rounded" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" alt="Alan Turing" />
           </figure>
           <h6 class="title is-6 has-text-weight-bold mt-3">Alan Turing</h6>
           <p class="subtitle is-7 has-text-grey-light">
@@ -25,7 +24,7 @@
       <div class="column is-full-mobile is-half-tablet is-one-quarter-desktop">
         <div class="box has-text-centered p-4">
           <figure class="image is-128x128 is-inline-block">
-            <img class="is-rounded" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg" alt="Nathalie Fry">
+            <img class="is-rounded" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg" alt="Nathalie Fry" />
           </figure>
           <h6 class="title is-6 has-text-weight-bold mt-3">Nathalie Fry</h6>
           <p class="subtitle is-7 has-text-grey-light">
@@ -38,7 +37,7 @@
       <div class="column is-full-mobile is-half-tablet is-one-quarter-desktop">
         <div class="box has-text-centered p-4">
           <figure class="image is-128x128 is-inline-block">
-            <img class="is-rounded" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" alt="Billy Turner">
+            <img class="is-rounded" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" alt="Billy Turner" />
           </figure>
           <h6 class="title is-6 has-text-weight-bold mt-3">Billy Turner</h6>
           <p class="subtitle is-7 has-text-grey-light">
@@ -51,7 +50,7 @@
       <div class="column is-full-mobile is-half-tablet is-one-quarter-desktop">
         <div class="box has-text-centered p-4">
           <figure class="image is-128x128 is-inline-block">
-            <img class="is-rounded" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" alt="Veronica Smith">
+            <img class="is-rounded" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg" alt="Veronica Smith" />
           </figure>
           <h6 class="title is-6 has-text-weight-bold mt-3">Veronica Smith</h6>
           <p class="subtitle is-7 has-text-grey-light">
@@ -59,15 +58,14 @@
           </p>
         </div>
       </div>
-
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'ParceirosVue'
-}
+  name: "ParceirosVue",
+};
 </script>
 
 <style scoped>

@@ -3,9 +3,7 @@
     <section class="section">
       <div class="container">
         <!-- Header -->
-        <h1 class="title has-text-centered has-text-weight-bold is-capitalized">
-          Consultoria empresarial para MEI
-        </h1>
+        <h1 class="title has-text-centered has-text-weight-bold is-capitalized">Consultoria empresarial para MEI</h1>
 
         <hr class="my-6" />
 
@@ -17,26 +15,22 @@
           <div class="is-hidden-mobile is-hidden-tablet-only column is-1"></div>
 
           <div class="column is-full-mobile is-4-desktop">
-            <!-- Coloque aqui o componente <FormIndex /> depois -->
             <div class="has-text-centered"><FormIndex /></div>
           </div>
         </div>
 
         <hr class="my-6" />
 
-        <!-- ContatoBar (placeholder) -->
         <div class="has-text-centered"><ContatoBar /></div>
 
         <hr class="my-6" />
 
-        <!-- CardsRelacionados (placeholder) -->
         <div class="has-text-centered"><CardsRelacionados /></div>
 
         <hr class="my-6" />
 
-        <!-- ParceirosVue (placeholder) -->
         <div class="has-text-centered">
-          <ParceirosVue/>
+          <ParceirosVue />
         </div>
       </div>
     </section>
@@ -56,7 +50,7 @@ export default {
     FormIndex,
     ContatoBar,
     CardsRelacionados,
-    ParceirosVue
+    ParceirosVue,
   },
 };
 </script>

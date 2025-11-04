@@ -9,28 +9,14 @@
       <!-- Nome -->
       <div class="field">
         <div class="control">
-          <input 
-            class="input" 
-            type="text" 
-            name="from_name" 
-            v-model="nome" 
-            placeholder="Nome" 
-            required
-          >
+          <input class="input" type="text" name="from_name" v-model="nome" placeholder="Nome" required />
         </div>
       </div>
 
       <!-- E-mail -->
       <div class="field">
         <div class="control">
-          <input 
-            class="input" 
-            type="email" 
-            name="reply_to" 
-            v-model="email" 
-            placeholder="E-mail" 
-            required
-          >
+          <input class="input" type="email" name="reply_to" v-model="email" placeholder="E-mail" required />
         </div>
       </div>
 
@@ -51,48 +37,35 @@
       <!-- Mensagem -->
       <div class="field">
         <div class="control">
-          <textarea 
-            class="textarea" 
-            name="message" 
-            v-model="mensagem" 
-            rows="4" 
-            placeholder="Mensagem" 
-            required
-          ></textarea>
+          <textarea class="textarea" name="message" v-model="mensagem" rows="4" placeholder="Mensagem" required></textarea>
         </div>
       </div>
 
       <!-- Botão de envio -->
       <div class="field">
         <div class="control">
-          <button class="button is-dark is-fullwidth" type="submit">
-            ENVIAR
-          </button>
+          <button class="button is-dark is-fullwidth" type="submit">ENVIAR</button>
         </div>
       </div>
 
       <!-- Feedback (opcional, apenas placeholders) -->
-      <div v-if="enviado" class="notification is-success mt-2">
-        Formulário enviado com sucesso!
-      </div>
-      <div v-if="falhou" class="notification is-danger mt-2">
-        Falha ao enviar formulário!
-      </div>
+      <div v-if="enviado" class="notification is-success mt-2">Formulário enviado com sucesso!</div>
+      <div v-if="falhou" class="notification is-danger mt-2">Falha ao enviar formulário!</div>
     </form>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'FormIndex',
+  name: "FormIndex",
   data() {
     return {
-      nome: '',
-      email: '',
-      assunto: '',
-      mensagem: '',
+      nome: "",
+      email: "",
+      assunto: "",
+      mensagem: "",
       enviado: false,
-      falhou: false
+      falhou: false,
     };
   },
   methods: {
@@ -102,7 +75,7 @@ export default {
         nome: this.nome,
         email: this.email,
         assunto: this.assunto,
-        mensagem: this.mensagem
+        mensagem: this.mensagem,
       });
 
       // Apenas simulação de envio
@@ -110,12 +83,12 @@ export default {
       this.falhou = false;
 
       // Limpar campos
-      this.nome = '';
-      this.email = '';
-      this.assunto = '';
-      this.mensagem = '';
-    }
-  }
+      this.nome = "";
+      this.email = "";
+      this.assunto = "";
+      this.mensagem = "";
+    },
+  },
 };
 </script>
 

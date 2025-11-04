@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import Imagem1 from '../assets/carousel/Imagem1.png'
-import Imagem2 from '../assets/carousel/Imagem2.png'
+import Imagem1 from "../assets/carousel/Imagem1.png";
+import Imagem2 from "../assets/carousel/Imagem2.png";
 
 export default {
   name: "CarouselComp",
@@ -23,8 +23,8 @@ export default {
     return {
       currentIndex: 0,
       slides: [
-        { src: Imagem1, caption: 'Bem-vindo ao nosso site!' },
-        { src: Imagem2, caption: 'Conheça nossos serviços exclusivos' },
+        { src: Imagem1, caption: "Bem-vindo ao nosso site!" },
+        { src: Imagem2, caption: "Conheça nossos serviços exclusivos" },
       ],
       intervalId: null,
       intervalMs: 10000,

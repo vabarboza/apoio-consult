@@ -11,11 +11,7 @@
       <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
         <div class="box p-0">
           <a href="#!">
-            <img
-              src="../assets/cards/banner1.png"
-              alt="Banner 1"
-              class="image is-fullwidth"
-            />
+            <img src="../assets/cards/banner1.png" alt="Banner 1" class="image is-fullwidth" />
           </a>
         </div>
       </div>
@@ -24,11 +20,7 @@
       <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
         <div class="box p-0">
           <a href="#!">
-            <img
-              src="../assets/cards/banner2.png"
-              alt="Banner 2"
-              class="image is-fullwidth"
-            />
+            <img src="../assets/cards/banner2.png" alt="Banner 2" class="image is-fullwidth" />
           </a>
         </div>
       </div>
@@ -37,11 +29,7 @@
       <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
         <div class="box p-0">
           <a href="#!">
-            <img
-              src="../assets/cards/banner3.png"
-              alt="Banner 3"
-              class="image is-fullwidth"
-            />
+            <img src="../assets/cards/banner3.png" alt="Banner 3" class="image is-fullwidth" />
           </a>
         </div>
       </div>
@@ -50,11 +38,7 @@
       <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
         <div class="box p-0">
           <a href="#!">
-            <img
-              src="../assets/cards/banner4.png"
-              alt="Banner 4"
-              class="image is-fullwidth"
-            />
+            <img src="../assets/cards/banner4.png" alt="Banner 4" class="image is-fullwidth" />
           </a>
         </div>
       </div>
@@ -63,11 +47,7 @@
       <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
         <div class="box p-0">
           <a href="#!">
-            <img
-              src="../assets/cards/banner5.png"
-              alt="Banner 5"
-              class="image is-fullwidth"
-            />
+            <img src="../assets/cards/banner5.png" alt="Banner 5" class="image is-fullwidth" />
           </a>
         </div>
       </div>
@@ -76,11 +56,7 @@
       <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
         <div class="box p-0">
           <a href="#!">
-            <img
-              src="../assets/cards/banner6.png"
-              alt="Banner 6"
-              class="image is-fullwidth"
-            />
+            <img src="../assets/cards/banner6.png" alt="Banner 6" class="image is-fullwidth" />
           </a>
         </div>
       </div>
