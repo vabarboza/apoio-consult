@@ -5,10 +5,10 @@
       <div class="columns is-multiline">
         <!-- Sobre a empresa -->
         <div class="column is-full-mobile is-5-desktop">
-          <h6 class="title is-6 has-text-weight-bold has-text-white mb-4 has-text-left">
+          <h6 class="title is-6 has-text-weight-bold has-text-white mb-4 has-text-left-desktop">
             APOIO – CONSULTORIA PARA MICROEMPREENDEDORES
           </h6>
-          <p class="is-size-7 has-text-white has-text-left">
+          <p class="is-size-7 has-text-white has-text-left-desktop">
             A APOIO é uma consultoria especializada em oferecer suporte e
             consultoria personalizada para microempreendedores. Com uma equipe
             de consultores experientes, fornecemos orientação abrangente em
@@ -29,7 +29,7 @@
         </div>
 
         <!-- Contato -->
-        <div class="column is-full-mobile is-4-desktop has-text-right">
+        <div class="column is-full-mobile is-4-desktop has-text-right-desktop">
           <h6 class="title is-6 has-text-weight-bold has-text-white mb-4 ">Contato</h6>
           <p class="has-text-white"><i class="fas fa-home mr-2"></i> Endereço</p>
           <p class="has-text-white"><i class="fas fa-envelope mr-2"></i> email@gmail.com</p>
